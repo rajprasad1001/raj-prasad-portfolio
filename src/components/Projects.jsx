@@ -387,7 +387,7 @@ export default function Projects() {
                   <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
                   Freelance Client Project
                   </span>
-                  )}
+)}
 
 
                   <h3 className="text-3xl font-bold tracking-[-0.05em] text-white transition-all duration-500 group-hover:translate-x-2 md:text-5xl lg:text-6xl">

@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  Sun,
   Menu,
   X,
   ArrowUpRight,
@@ -186,25 +185,7 @@ export default function Navbar() {
               <FaLinkedin size={15} />
             </motion.a>
 
-            {/* Theme */}
-            <motion.button
-              whileHover={{
-                y: -2,
-                rotate: 8,
-                scale: 1.05,
-              }}
-              whileTap={{
-                scale: 0.9,
-                rotate: -8,
-              }}
-              transition={{
-                duration: 0.2,
-              }}
-              aria-label="Theme"
-              className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 text-zinc-500 transition-colors duration-300 hover:border-white/25 hover:bg-white hover:text-black"
-            >
-              <Sun size={15} />
-            </motion.button>
+            
 
             {/* Mobile menu */}
             <motion.button
